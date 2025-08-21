@@ -14,7 +14,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between bg-zinc-100">
         {/* Desktop menu */}
         <div className="hidden lg:flex items-center justify-between w-full p-5">
             <ul className="flex gap-2 text-primary font-bold uppercase">
