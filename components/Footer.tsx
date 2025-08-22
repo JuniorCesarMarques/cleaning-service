@@ -18,13 +18,13 @@ export default function Footer() {
           />
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/bubblecleaningservice1"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-700 hover:bg-sky-100 transition"
             >
               <Facebook size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/bubblecleaning.services"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-700 hover:bg-sky-100 transition"
             >
               <Instagram size={20} />
@@ -75,7 +75,7 @@ export default function Footer() {
       <div className="bg-[#cce0ff] py-4 text-center">
         <p className="text-sm font-medium text-gray-800">
           Copyright ©2025 Mr Bubble Cleaning Services, All rights reserved. Powered by{" "}
-          <span className="font-bold">MoxCreative.</span>
+          <span className="font-bold">Junior.</span>
         </p>
         <div className="mt-2 flex justify-center space-x-6 text-sm font-medium text-gray-800">
           <a href="#" className="hover:underline">
