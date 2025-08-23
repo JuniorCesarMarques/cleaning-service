@@ -51,10 +51,12 @@ export default function Banner() {
       home without the hassle. Our expert team ensures every corner is
       organized, and impeccably clean!
     </p>
-    <button className="flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-800 transition px-6 py-3 rounded-md shadow-lg w-full md:w-auto mx-auto md:mx-0">
-      <BsFillTelephoneFill />
-      Book now
-    </button>
+    <a href="tel:+15086657196">
+      <button className="flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-800 transition px-6 py-3 rounded-md shadow-lg w-full md:w-auto mx-auto md:mx-0">
+        <BsFillTelephoneFill />
+        Book now
+      </button>
+    </a>
   </div>
 </div>
 
