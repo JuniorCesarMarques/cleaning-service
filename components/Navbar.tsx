@@ -40,14 +40,18 @@ export default function Navbar() {
                 <li>HOME</li>
                 <li>SERVICES</li>
                 <li>ABOUT US</li>
-                <li>CONTACT US</li>
+                <a href="tel:+15086657196">
+                  <li>CONTACT US</li>
+                </a>
               </ul>
             </PopoverContent>
           </Popover>
 
-      <button className="uppercase bg-primary text-white px-6 py-2 rounded font-bold">
-        Contact us
-      </button>
+      <a href="tel:+15086657196">
+        <button className="uppercase bg-primary text-white px-6 py-2 rounded font-bold">
+          Contact us
+        </button>
+      </a>
     </div>
 
 
