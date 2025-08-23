@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Button from "./Button";
 
 const services = [
   {
@@ -58,9 +59,7 @@ export default function Services() {
               </h3>
               <p className="text-white/90 mb-6 flex-1">{service.desc}</p>
 
-              <button className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 transition px-5 py-2 rounded-md text-white font-medium shadow w-full md:w-auto">
-                📞 Learn More
-              </button>
+              <Button />
             </div>
           </div>
         ))}

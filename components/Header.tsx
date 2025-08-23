@@ -12,8 +12,12 @@ export default function Header() {
                     Open : 9am - 5pm ( Sunday - Friday )
                 </span>
                 <span className="text-white flex justify-center gap-2">
-                    <FaFacebookF />
-                    <FaInstagram  />
+                    <a target="blank" href="https://www.facebook.com/bubblecleaningservice1">
+                        <FaFacebookF />
+                    </a>
+                    <a target="blank" href="https://www.instagram.com/bubblecleaning.services">
+                        <FaInstagram  />
+                    </a>
                 </span>
             </div>
 

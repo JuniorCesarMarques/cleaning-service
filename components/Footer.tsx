@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { Mail, Phone, Facebook, Instagram } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
+
+import { FaFacebookF, FaInstagram  } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -9,31 +11,35 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
         {/* Logo + Social */}
         <div className="flex flex-col items-center md:items-start gap-6">
-          <Image
-          className="text-white"
-            src="/logo.png" // troque pelo seu logo branco
-            alt="Bubble Cleaning Services"
-            width={200}
-            height={80}
-          />
+
+            <Image
+              className="bg-white rounded-full"
+              src="/logo-white.png" // troque pelo seu logo branco
+              alt="Bubble Cleaning Services"
+              width={200}
+              height={200}
+            />
+
           <div className="flex gap-4">
             <a
+              target="blank"
               href="https://www.facebook.com/bubblecleaningservice1"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-700 hover:bg-sky-100 transition"
             >
-              <Facebook size={20} />
+              <FaFacebookF size={20} />
             </a>
             <a
+              target="blank"
               href="https://www.instagram.com/bubblecleaning.services"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sky-700 hover:bg-sky-100 transition"
             >
-              <Instagram size={20} />
+              <FaInstagram size={20} />
             </a>
           </div>
         </div>
 
         {/* Services */}
-        <div className="text-center md:text-left">
+        <div className="md:text-left">
           <h3 className="text-xl font-bold mb-4">Services</h3>
           <ul className="space-y-2">
             <li>Residential Cleaning</li>
@@ -43,7 +49,7 @@ export default function Footer() {
         </div>
 
         {/* Get in Touch */}
-        <div className="text-center md:text-left">
+        <div className="md:text-left">
           <h3 className="text-xl font-bold mb-4">Get in Touch</h3>
           <div className="flex items-start gap-3 mb-3">
             <div className="w-10 h-10 rounded-full bg-sky-500 flex items-center justify-center">
