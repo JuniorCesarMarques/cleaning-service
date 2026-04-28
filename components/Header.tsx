@@ -29,7 +29,7 @@ export default function Header() {
                         <BsFillTelephoneFill className="text-white bg-primary rounded-full w-10 h-10 p-2" />
                         <div className="flex flex-col items-start">
                             <p className="font-bold text-zinc-600">Call Us Anytime</p>
-                            <p className="text-primary font-bold">(508) 665-7196</p>
+                            <p className="text-primary font-bold">(781)-568-1771</p>
                         </div>
                     </div>
                     <div className="flex gap-2">

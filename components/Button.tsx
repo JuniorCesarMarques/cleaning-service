@@ -2,7 +2,7 @@ export default function Button() {
   return (
     <>
       <a
-        href="tel:+15086657196"
+        href="tel:+17815681771"
         className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 transition px-5 py-2 rounded-md text-white font-medium shadow w-full md:w-auto animate-[pulse-scale_1.5s_ease-in-out_infinite]"
       >
         📞 Call Now
