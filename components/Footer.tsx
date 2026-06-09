@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="font-semibold">Email Support</p>
-              <p>contact@mrbubblecleaning.com</p>
+              <p>cleaningmrbubble@gmail.com</p>
             </div>
           </div>
           <div className="flex items-start gap-3">

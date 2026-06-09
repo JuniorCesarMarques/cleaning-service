@@ -35,7 +35,7 @@ export default function Header() {
                     <div className="flex gap-2">
                         <BsFillTelephoneFill className="text-white bg-primary rounded-full w-10 h-10 p-2" />
                         <div className="flex flex-col items-start">
-                            <p className="font-bold text-zinc-600">contact@mrbubblecleaning.com</p>
+                            <p className="font-bold text-zinc-600">cleaningmrbubble@gmail.com</p>
                             <p className="text-primary font-bold">Mail to Us</p>
                         </div>
                     </div>
