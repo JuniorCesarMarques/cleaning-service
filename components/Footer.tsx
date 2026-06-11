@@ -66,7 +66,7 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="font-semibold">Need more help?</p>
-              <p>+1 (781) 568-1771</p>
+              <p>(781) 568-1771</p>
             </div>
           </div>
         </div>
